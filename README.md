@@ -57,9 +57,15 @@ Upon execution the code automatically creates a folder to save the result into n
 The outputs produced are
 
 -A log file detailing the parameters of the simulation.
+
 -A log file detailing the maxima of the pressure and viscous stress in both the pool and droplet over time.
+
 -A log file detailing various energies (viscous dissipation, kinetic, gravitational potential and surface) in all three phases with time.
+
 -A video showing the individual phases and resolution level.
+
 -A log file detailing various performance related statistics about the simulation (grid points, run time, etc.).
+
 -Gfsview snapshots of the simulation over time.
+
 -Interfaces of each of the three phases over time.
