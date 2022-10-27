@@ -25,6 +25,6 @@ The rest of the simulations parameters are provided as inputs to the main functi
 1. Reynolds number of the impacting droplet based on the droplet diameter. Defined as $\textrm{Re} = \rho_dDV_0/\mu_d$.
 2. Weber number of the impacting droplet based on the droplet diameter. Defined as $\textrm{We} = \rho_dDV_0^2/\sigma_{da}$.
 3. Froude number of the impacting droplet based on the droplet diameter. Defined as $\textrm{Fr} = V_0/\sqrt{gD}$.
-4. The real pool density in $\textrm{kg\! m}^{-3}$ (i.e. for water this would be 1000).
+4. The real pool density in $\textrm{kgm}^{-3}$ (i.e. for water this would be 1000).
 5. The real pool kinematic viscosity in $\textrm{cSt}$ (centistokes) as this is usually how silicone oils (used in the work here) are described. The conversion to dynamic viscosity to find the viscosity ratio to the droplet is calculated automatically.
 6. The surface tension coefficient between the droplet and the air in $\textrm{mNm}$ (i.e for water this would be 72).
