@@ -31,3 +31,7 @@ The rest of the simulations parameters are provided as inputs to the main functi
 7. The surface tension coefficient between the pool and the air in $\textrm{mNm}$.
 8. The interfacial tension coefficient between the droplet and the pool in in $\textrm{mNm}$.
 9. The maximum resolution level of the simulations (i.e. the maximum resolution corresponds to $2^{\textrm{MAXLEVEL}}$ grid points per domain size).
+
+## Exectution
+
+
