@@ -32,6 +32,22 @@ The rest of the simulations parameters are provided as inputs to the main functi
 8. The interfacial tension coefficient between the droplet and the pool in in $\textrm{mNm}$.
 9. The maximum resolution level of the simulations (i.e. the maximum resolution corresponds to $2^{\textrm{MAXLEVEL}}$ grid points per domain size).
 
-## Exectution
+## Execution
 
-
+If running on multiple cores the number of cores needs to first be defined by 
+```
+export OMP_NUM_THREADS=6
+```
+Then the code needs to be compiled (including links to the graphical libraries if output videos are desired
+```
+qcc -O2 -w -fopenmp 3phasedroponpoolexample.c -o 3phasedroponpoolexample -L$BASILISK/gl -lglutils -lfb_glx -lGLU -lGLEW -lGL -lX11 -lm
+```
+and then instantiated with the parameters defined above 
+```
+./3phasedroponpoolexample Re We Fr Real_Pool_Density Real_Pool_Viscosity Real_Drop_Air_ST Real_Pool_Air_ST Real_Drop_Pool_ST MaxLevel
+```
+for example
+```
+./3phasedroponpoolexample 6660 2020 25.9 934 100 14 20 5 10
+```
+An example shell script which automates this process is included.
