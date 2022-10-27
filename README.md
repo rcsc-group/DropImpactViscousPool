@@ -55,6 +55,7 @@ An example shell script which automates this process is included.
 Upon execution the code automatically creates a folder to save the result into numed according to the simulation parameters. This can be changed by editing lines 184-197 of the main code.
 
 The outputs produced are
+
 -A log file detailing the parameters of the simulation.
 -A log file detailing the maxima of the pressure and viscous stress in both the pool and droplet over time.
 -A log file detailing various energies (viscous dissipation, kinetic, gravitational potential and surface) in all three phases with time.
