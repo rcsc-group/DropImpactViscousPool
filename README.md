@@ -28,3 +28,6 @@ The rest of the simulations parameters are provided as inputs to the main functi
 4. The real pool density in $\textrm{kgm}^{-3}$ (i.e. for water this would be 1000).
 5. The real pool kinematic viscosity in $\textrm{cSt}$ (centistokes) as this is usually how silicone oils (used in the work here) are described. The conversion to dynamic viscosity to find the viscosity ratio to the droplet is calculated automatically.
 6. The surface tension coefficient between the droplet and the air in $\textrm{mNm}$ (i.e for water this would be 72).
+7. The surface tension coefficient between the pool and the air in $\textrm{mNm}$.
+8. The interfacial tension coefficient between the droplet and the pool in in $\textrm{mNm}$.
+9. The maximum resolution level of the simulations (i.e. the maximum resolution corresponds to $2^{\textrm{MAXLEVEL}}$ grid points per domain size).
