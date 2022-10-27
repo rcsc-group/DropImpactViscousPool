@@ -22,4 +22,4 @@ Currently the code is setup to simulate the impact of a [Fluorinert FC-770](http
 
 The rest of the simulations parameters are provided as inputs to the main function when the code is instantiated. These are (and have to be in this order
 
-1. Reynolds number of the impacting droplet based on the droplet diameter. Defined as `$\textrm{Re} = \rho_dDV_0/\mu_d$`
+1. Reynolds number of the impacting droplet based on the droplet diameter. Defined as ` $\textrm{Re} = \rho_dDV_0/\mu_d$ `
